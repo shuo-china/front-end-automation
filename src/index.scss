@@ -1,0 +1,14 @@
+$theme: 'primary';
+$bgc: 'pink';
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: $bgc;
+
+  @if $theme == 'primary' {
+    font-size: 14px;
+  } @else {
+    font-size: 16px;
+  }
+}
